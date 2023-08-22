@@ -8,15 +8,18 @@ env.read_env()
 password = env('PASSWORD_BD')
 host = env('HOST_BD')
 secret_key = env('SECRET_KEY')
+port = env('PORT_BD')
+name = env('NAME_BD')
+user = env('USER_BD')
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': host,
-        'PORT': '5434',
-        'NAME': 'checkpoint',
-        'USER': 'guard',
+        'PORT': port,
+        'NAME': name,
+        'USER': user,
         'PASSWORD': password,
     }
 }
