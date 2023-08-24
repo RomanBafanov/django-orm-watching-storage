@@ -30,6 +30,10 @@ You need to create a **.env** file, it should contain:
 SECRET_KEY=''
 PASSWORD_BD=''
 HOST_BD=''
+PORT_BD=''
+NAME_BD=''
+USER_BD=''
+DEBUG='False'
 ```
 
 ## How to use

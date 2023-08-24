@@ -11,6 +11,7 @@ secret_key = env('SECRET_KEY')
 port = env('PORT_BD')
 name = env('NAME_BD')
 user = env('USER_BD')
+debug = env('DEBUG')
 
 
 DATABASES = {
@@ -28,7 +29,7 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = secret_key
 
-DEBUG = False
+DEBUG = debug
 
 ROOT_URLCONF = 'project.urls'
 
