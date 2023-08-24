@@ -12,6 +12,7 @@ port = env('PORT_BD')
 name = env('NAME_BD')
 user = env('USER_BD')
 debug = env('DEBUG')
+hosts = env('ALLOWED_HOSTS')
 
 
 DATABASES = {
@@ -33,7 +34,7 @@ DEBUG = debug
 
 ROOT_URLCONF = 'project.urls'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [hosts]
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

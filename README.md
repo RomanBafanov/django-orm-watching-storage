@@ -34,6 +34,7 @@ PORT_BD=''
 NAME_BD=''
 USER_BD=''
 DEBUG='False'
+ALLOWED_HOSTS=''
 ```
 
 ## How to use
